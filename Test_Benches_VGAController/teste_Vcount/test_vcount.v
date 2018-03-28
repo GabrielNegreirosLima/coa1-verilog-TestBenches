@@ -12,7 +12,7 @@ initial begin
         Clock = 0;
         #1;
         Clear = 0;
-        #1100 $finish;
+        #2200 $finish;                                                   // double of the time test to show it two times
 end
 
 always begin

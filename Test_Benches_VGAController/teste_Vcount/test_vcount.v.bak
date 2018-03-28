@@ -12,7 +12,7 @@ initial begin
         Clock = 0;
         #1;
         Clear = 0;
-        #6000 $finish;
+        #1100 $finish;
 end
 
 always begin
