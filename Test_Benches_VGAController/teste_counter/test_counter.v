@@ -28,11 +28,16 @@ initial begin
   Load = 0;                    
   #25  
   Count = 1;                    // Adds 1 on Q to 75 more time units
-  #75;
+  #150;
   
   Count = 0;                     
   Clear = 1;                     // Puts Q = D  again
   #20;
+  
+  D = 10'b0110101011;           // Change D, but Q stills in 0 until load goes to 1
+  #75
+  Clear = 0;
+  Load = 1;
   #400 $finish;
 end
 endmodule
