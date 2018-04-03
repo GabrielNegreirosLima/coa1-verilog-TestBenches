@@ -1,0 +1,12 @@
+module decodificador(A, Q);
+	input [2:0] A;
+	output reg [7:0] Q;
+	
+	always @(A)
+	begin
+		case(A)	
+			
+	
+	end
+	
+endmodule 
