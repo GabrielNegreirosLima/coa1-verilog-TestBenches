@@ -1,4 +1,4 @@
- module decodificador(A, Q);
+ module decoder(A, Q);
 	input [2:0] A;
 	output reg [7:0] Q;
 	
