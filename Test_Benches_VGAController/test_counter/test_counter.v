@@ -31,7 +31,11 @@ initial begin
   #150;
   
   Count = 0;                     
+<<<<<<< HEAD
   Clear = 1;                     // Puts Q = 0
+=======
+  Clear = 1;                     // Puts Q = D  again
+>>>>>>> b45a3c536aad7f228a0238d2fa77442050cd52c6
   #20;
   
   D = 10'b0110101011;           // Change D, but Q stills in 0 until load goes to 1

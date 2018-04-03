@@ -34,5 +34,11 @@ initial begin
 	#20;
 	clear = 1;
 	#20;
+<<<<<<< HEAD
 end
+=======
+
+end
+
+>>>>>>> b45a3c536aad7f228a0238d2fa77442050cd52c6
 endmodule

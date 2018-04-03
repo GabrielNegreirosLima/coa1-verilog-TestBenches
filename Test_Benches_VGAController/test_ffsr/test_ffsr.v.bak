@@ -33,7 +33,11 @@ initial begin
 	s = 1;
 	#20;
 	clear = 1;
+<<<<<<< HEAD
 	#20;
+=======
+	#20
+>>>>>>> b45a3c536aad7f228a0238d2fa77442050cd52c6
 
 end
 
